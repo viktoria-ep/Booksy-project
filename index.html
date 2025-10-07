@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booksy</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="article">
+      <div class="article-container">
+        <div class="article-wrapper-text">
+          <h2 class="section-title article-title">
+            Welcome to Booksy - your cozy corner for handpicked reads.
+          </h2>
+          <p class="section-text article-text">
+            We believe books are more than just stories — they're companions,
+            doorways, and memories. Whether you're chasing adventures or quiet
+            moments, we're here to help you find your next favorite book.
+          </p>
+        </div>
+        <div class="article-wrapper-img">
+          <picture class="article-picture">
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                ./image/article/article-desk-min.jpg   1x,
+                ./image/article/article-desk2x-min.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./image/article/article-tab-min.jpg   1x,
+                ./image/article/article-tab2x-min.jpg 2x
+              "
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./image/article/article-mob-min.jpg   1x,
+                ./image/article/article-mob2x-min.jpg 2x
+              "
+            />
+            <img
+              class="article-image"
+              src="./image/article/article-mob-min.jpg"
+              alt="Cozy reading corner in a bookshop"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
